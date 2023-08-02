@@ -41,21 +41,38 @@ body {
   font-size: 24px;
 }
 
+.apresentação_link_subtitulo {
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .apresentacao__botao {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
   justify-content: space-between;
 }
 
 .botao {
-  background-color: #41FD22;
-  width: 280px;
+  /* background-color: #41FD22; */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 368px;
   border-radius: 16px;
+  border: solid 2px #41FD22;
   padding: 21.5px 0;
 
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 24px;
   text-decoration: none;
-  color: #000000;
+  color: #F6F6F6;
   font-weight: 600;
+}
+
+.botao:hover{
+  background-color: #272727;
 }

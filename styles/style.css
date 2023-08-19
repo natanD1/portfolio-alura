@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-  --cor--primaria: #03001C;
-  --cor--secundaria: #DDE6ED;
-  --cor--terciaria: #5B8FB9;
-  --cor--hover: #9DB2BF;
+  --cor--primaria: #272829;
+  --cor--secundaria: #D8D9DA;
+  --cor--terciaria: #4682A9;
+  --cor--hover: #D8D9DA;
 
   --fonte-primaria: 'Krona One', sans-serif;
   --fonte-secundaria: 'Montserrat', sans-serif;
@@ -28,6 +28,9 @@ body {
 .cabecalho__menu{
   display: flex;
   gap: 80px;
+}
+.cabecalho__menu__link:hover{
+  color: var(--cor--hover);
 }
 
 .cabecalho__menu__link {
@@ -98,17 +101,19 @@ body {
   font-family: var(--fonte-secundaria);;
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
   background-color: var(--cor--hover);
+  color: #4682A9;
 }
 
-.apresentacao__imagem{
-  width: 50%;
-  /* transform: translateY(0px);
-  animation: float 5s ease-in-out infinite; */
+.apresentacao_imagem{
+  width: 40%;
+
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
 }
 
-/* @keyframes float {
+@keyframes float {
   0%{
     transform: translatey(0px);
   }
@@ -118,7 +123,7 @@ body {
   100% {
     transform: translateY(0px);
   }
-} */
+}
 
 .rodape{
   color: var(--cor--primaria);
@@ -148,6 +153,22 @@ body {
 
   .apresentacao__conteudo{
     width: auto;
+  }
+
+  .apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border:  2px solid var(--cor--terciaria);
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+    font-family: var(--fonte-secundaria);;
   }
 
 }

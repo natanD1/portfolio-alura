@@ -4,26 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Quem sou eu?</title>
+    <title>Portifolio</title>
   </head>
   <body>
     <header class="cabecalho">
       <nav class="cabecalho__menu">
         <a class="cabecalho__menu__link" href="index.html">Home</a>
         <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        <a class="cabecalho__menu__link" href="">Porfólio</a>
-        <a class="cabecalho__menu__link" href="">Currículo</a>
       </nav>
     </header>
 
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
-        <h1>
+        <h1 class="apresentacao__conteudo__titulo">
           Eleve seu negócio digital a outro nível
-          <span>com um Front-end de qualidade!</span>
+          <strong class="titulo-destaque"
+            >com um Front-end de qualidade!</strong
+          >
         </h1>
-
-        <p>
+        <p class="apresentacao__conteudo__texto">
           Olá! Sou Natan Dourado, um desenvolvedor Front-end especializado em
           React, HTML e CSS, apaixonada por transformar boas ideias em
           realidade. Meu foco é auxiliar pequenos negócios e designers a
@@ -31,20 +30,23 @@
           excepcionais. <br /><br />Vamos conversar?
         </p>
 
-        <div class="apresentacao__botao">
-          <h2 class="apresentação_link_subtitulo">Acesse minhas redes:</h2>
+        <div class="apresentacao__links">
+          <h2 class="apresentação_links_subtitulo">Acesse minhas redes:</h2>
           <a
-            class="botao__links"
+            class="apresentacao__links__navegacao"
             href="https://www.linkedin.com/in/natandourado/"
           >
             <img src="./assets/linkedin.png" alt="LinkedIn" />LinkedIn
           </a>
           <a
-            class="botao__links"
+            class="apresentacao__links__navegacao"
             href="https://www.instagram.com/inlovewithnatan/"
             ><img src="./assets/instagram.png" alt="Instagram" />Instagram</a
           >
-          <a class="botao__links" href="https://github.com/natanD1">
+          <a
+            class="apresentacao__links__navegacao"
+            href="https://github.com/natanD1"
+          >
             <img src="./assets/github.png" alt="GitHub" />GitHub</a
           >
         </div>
@@ -53,7 +55,7 @@
       <img
         src="assets/imagem.png"
         alt="Foto de Natan"
-        class="imagem_flutuante"
+        class="apresentacao_imagem"
       />
     </main>
 

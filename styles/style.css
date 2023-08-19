@@ -107,7 +107,7 @@ body {
 }
 
 .apresentacao_imagem{
-  width: 40%;
+  width: 50%;
 
   transform: translateY(0px);
   animation: float 5s ease-in-out infinite;
